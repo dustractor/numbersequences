@@ -2,8 +2,8 @@
 Number sequences formatted for use with voxglitch's one-point and one-zero (VCV Rack modules)
 
 
-need to come up with a naming scheme for these
+sometimes when I'm bored I use python to generate these.
 
-most are in groups of 8, some are 16, a few are 32 or 64
+now there's also a python script to make the vcvm preset files
 
-pmask_xxxx ones are for one-point, the rest are for one-zero
+    python mkpresetsfromnumbersequences --seq-dir <wherever-you-cloned-this-repo-to>
